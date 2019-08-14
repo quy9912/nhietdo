@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nhietdo</title>
+
+</head>
+<body>
+<h1 style="color: red;">chuyển đổi nhiệt độ</h1>
+<form>
+    <p>
+    <label>Celcius</label>
+    <input id="inputCelcius" type="number" placeholder="Celcius"
+    oninput="chuyendoi(this.value)"
+    onchange="chuyendoi(this.value)">
+
+    </p>
+    <p> Fahrenheit: <span id="outFahrenheit"></span></p>
+</form>
+<script>
+    src="chuyendoi.js"
+</script>
+
+</body>
+</html>
